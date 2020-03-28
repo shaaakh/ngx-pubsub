@@ -1,4 +1,4 @@
-import { PubSubService } from './angular7-pubsub.service';
+import { PubSubService } from './ngx-pubsub.service';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 
 /**

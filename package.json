@@ -1,13 +1,13 @@
 {
-  "name": "angular7-pubsub",
-  "version": "2.2.0",
+  "name": "@shaaakh/ngx-pubsub",
+  "version": "2.3.0",
   "description": "Pub/Sub service for Angular 7 and above",
-  "main": "./umd/angular7-pubsub.js",
+  "main": "./umd/ngx-pubsub.js",
   "module": "./esm/src/index.js",
   "typings": "./esm/src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrebati/angular7-pubsub.git"
+    "url": "git+https://github.com/shaaakh/ngx-pubsub.git"
   },
   "scripts": {
     "test": "karma start",
@@ -33,26 +33,11 @@
     "email": "m@rebati.net",
     "url": "http://github.com/mrebati"
   },
-  "contributors": [
-    {
-      "name": "Mert Susur",
-      "email": "mail@mertsusur.com",
-      "url": "http://github.com/msusur"
-    },
-    {
-      "name": "Dustin Cleveland",
-      "url": "https://github.com/dustincleveland"
-    },
-    {
-      "name": "Mohammad Rebati",
-      "url": "https://github.com/mrebati"
-    }
-  ],
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrebati/angular7-pubsub/issues"
+    "url": "https://github.com/shaaakh/ngx-pubsub/issues"
   },
-  "homepage": "https://github.com/mrebati/angular7-pubsub#readme",
+  "homepage": "https://github.com/shaaakh/ngx-pubsub#readme",
   "dependencies": {
     "@angular/common": "^9.0.7",
     "@angular/compiler": "^9.0.7",

@@ -46,9 +46,9 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist/umd'),
-    filename: 'angular7-pubsub.js',
+    filename: 'ngx-pubsub.js',
     libraryTarget: 'umd',
-    library: 'angular7-pubsub'
+    library: 'ngx-pubsub'
   },
   plugins: [
     new CompressionPlugin({test: /\.css$|\.html$|\.js$|\.map$/ })

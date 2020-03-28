@@ -1,25 +1,22 @@
-# Pub/Sub Service for Angular 7 abd above
+# Pub/Sub Service for Angular
 
 A simple publisher/subscriber service.
-This repository is forked from angular-pubsub and 
-the only reason I changed it was to use RXJs version 6 and above. and updated the angular packages.
+This repository is forked from angular-pubsub, changed RXJs version to 6 and above; and added angular 9 support.
 
-All credit goes to the owner and contributers of angular-pubsub repo.
-
-[![NPM](https://nodei.co/npm/angular7-pubsub.png?downloads=true&stars=true)](https://nodei.co/npm/angular7-pubsub/)
+[![NPM](https://nodei.co/npm/@shaaakh/ngx-pubsub.png?downloads=true&stars=true)](https://nodei.co/npm/@shaaakh/ngx-pubsub/)
 
 ## Usage
 
 - Import service in your codes or download via npm or bower.
 
-`npm i --save angular7-pubsub`
+`npm i --save @shaaakh/ngx-pubsub`
 
 - Add module bundle to imports in your application.
 
 ```typescript
 ...
 
-import { PubSubModule } from 'angular7-pubsub'; // <= HERE
+import { PubSubModule } from '@shaaakh/ngx-pubsub'; // <= HERE
 
 @NgModule({
 declarations: [
@@ -102,8 +99,6 @@ export class NavigationComponent implements OnInit, OnDestroy {
         this.openSidenavSub.unsubscribe();
     }
 ```
-
-**See Changelog** ~~$sub method have one bug. RxJS Subscriber call subscribe method on start like Angular 1.x $scope.$watch.~~
 
 ## Build the source
 
